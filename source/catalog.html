@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Кэт энерджи - Каталог продукции</title>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta
+    content="Cat Energy - каталог функционального питания для котов. Широкий выбор продукции для похудения или набора массы вашего питомца."
+    name="description">
+  <link href="styles/vendors/index.scss" rel="stylesheet">
+</head>
+<body class="page__body">
+<header class="main-header">
+  <nav class="main-header__nav nav">
+    <a class="nav__main-link" href="index.html"><img alt="Супер котик в плаще" height="50" src="#" width="150"></a>
+    <ul class="nav__links">
+      <li class="nav__item"><a href="index.html">Главная</a></li>
+      <li class="nav__item"><a href="catalog.html">Каталог продукции</a></li>
+      <li class="nav__item"><a href="#">Подбор программы</a></li>
+    </ul>
+  </nav>
+  <button aria-label="Мобильное меню" class="nav__toggle"><img alt="" height="24" src="#" width="24"></button>
+</header>
+<main>
+  <section class="catalog">
+    <h1 class="catalog__title">Каталог продукции</h1>
+    <ul class="catalog__list">
+      <li class="catalog__item product-card">
+        <img alt="Cat Energy PRO 500 г" class="product-card__image" height="280" src="#" width="280">
+        <div class="product-card__info">
+          <h3 class="product-card__title">Cat Energy PRO 500 г</h3>
+          <dl class="product-card__details">
+            <div class="product-card__parameter">
+              <dt>Масса</dt>
+              <dd>500 г</dd>
+            </div>
+            <div class="product-card__parameter">
+              <dt>Вкус</dt>
+              <dd>Курица</dd>
+            </div>
+            <div class="product-card__parameter">
+              <dt>Цена</dt>
+              <dd>700 ₽</dd>
+            </div>
+          </dl>
+        </div>
+        <button class="product-card__button button">Заказать</button>
+      </li>
+      <li class="catalog__item product-card">
+        <img alt="Cat Energy PRO 1000 г" class="product-card__image" height="280" src="#" width="280">
+        <div class="product-card__info">
+          <h3 class="product-card__title">Cat Energy PRO 1000 г</h3>
+          <dl class="product-card__details">
+            <div class="product-card__parameter">
+              <dt>Масса</dt>
+              <dd>1000 г</dd>
+            </div>
+            <div class="product-card__parameter">
+              <dt>Вкус</dt>
+              <dd>Курица</dd>
+            </div>
+            <div class="product-card__parameter">
+              <dt>Цена</dt>
+              <dd>1000 ₽</dd>
+            </div>
+          </dl>
+        </div>
+        <button class="product-card__button button">Заказать</button>
+      </li>
+      <li class="catalog__item product-card">
+        <img alt="Cat Energy SLIM 500 г" class="product-card__image" height="280" src="#" width="280">
+        <div class="product-card__info">
+          <h3 class="product-card__title">Cat Energy SLIM 500 г</h3>
+          <dl class="product-card__details">
+            <div class="product-card__parameter">
+              <dt>Масса</dt>
+              <dd>500 г</dd>
+            </div>
+            <div class="product-card__parameter">
+              <dt>Вкус</dt>
+              <dd>Рыба</dd>
+            </div>
+            <div class="product-card__parameter">
+              <dt>Цена</dt>
+              <dd>700 ₽</dd>
+            </div>
+          </dl>
+        </div>
+        <button class="product-card__button button">Заказать</button>
+      </li>
+    </ul>
+  </section>
+  <section class="additional-products">
+    <h2 class="additional-products__title">Дополнительные товары</h2>
+    <ul class="additional-products__list">
+      <li class="additional-products__item additional-product">
+        <h3 class="additional-product__title">Сахарозаменитель</h3>
+        <div class="additional-product__info">
+          <p class="additional-product__amount">1 упаковка (100 г)</p>
+          <p class="additional-product__price">200 ₽</p>
+        </div>
+        <button class="additional-product__button button">Заказать</button>
+      </li>
+      <li class="additional-products__item additional-product">
+        <h3 class="additional-product__title">Питьевая вода</h3>
+        <div class="additional-product__info">
+          <p class="additional-product__amount">5 литров</p>
+          <p class="additional-product__price">50 ₽</p>
+        </div>
+        <button class="additional-product__button button">Заказать</button>
+      </li>
+    </ul>
+  </section>
+  <section class="subscription">
+    <h2 class="sr-only">Подписаться на рассылку об акциях</h2>
+    <p class="subscription__title">Акции и новинки</p>
+    <p class="subscription__description">Подпишитесь на наши новости и не пропустите ни одного предложения!</p>
+    <form action="#" class="subscription__form form" method="post">
+      <label class="sr-only" for="email">Ваш email</label>
+      <input class="form__input" id="email" minlength="5" placeholder="кuklachev@gmail.com" required type="email">
+      <button class="subscription__button button" type="submit">Подписаться</button>
+    </form>
+  </section>
+  <section class="promo">
+    <h2 class="sr-only">Акция</h2>
+    <div class="promo__content">
+      <p class="promo__text">Закажите все и получите чехол для кота в подарок!</p>
+    </div>
+  </section>
+
+</main>
+<footer class="footer">
+  <div class="footer__header">
+    <section class="footer__contacts">
+      <h2 class="footer__title">приглашаем к сотрудничеству дилеров!</h2>
+      <address class="footer__address address">
+        ул. Большая Конюшенная, д. 19/8
+        <span class="address__city">Санкт-Петербург</span>
+      </address>
+    </section>
+    <figure class="footer__map">
+      <div>yandex map</div>
+      <figcaption class="sr-only">Как к нам добраться</figcaption>
+    </figure>
+  </div>
+  <div class="footer__nav">
+    <a class="footer__logo" href="#">
+      <span class="sr-only">Главная</span>
+    </a>
+    <ul class="footer__social-links social-links-list">
+      <li class="social-links-list__list">
+        <a class="social-links-list__item" href="">
+          <img alt="" class="social-links-list__icon" height="24" src="" width="24">
+          <span class="sr-only">Мы в VK</span>
+        </a>
+      </li>
+      <li class="social-links-list__list">
+        <a class="social-links-list__item" href="">
+          <img alt="" class="social-links-list__icon" height="24" src="" width="24">
+          <span class="sr-only">Мы в Youtume</span>
+        </a>
+      </li>
+      <li class="social-links-list__list">
+        <a class="social-links-list__item" href="">
+          <img alt="" class="social-links-list__icon" height="24" src="" width="24">
+          <span class="sr-only">Мы в Telegram</span>
+        </a>
+      </li>
+    </ul>
+    <a class="academy-logo" href="#">
+      <span class="sr-only">HTML Academy</span>
+      <img alt="" class="social-links-list__icon" height="24" src="" width="24">
+    </a>
+  </div>
+</footer>
+</body>
+</html>

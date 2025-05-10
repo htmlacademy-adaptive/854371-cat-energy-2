@@ -1,0 +1,20 @@
+// Vendors
+// ---------------------------------------
+@use "normalize-scss/sass/normalize";
+
+// Globals
+// ---------------------------------------
+@use "../global/variables";
+@use "../global/mixins";
+@use "../global/func";
+@use "../global/fonts";
+@use "../global/global";
+@use "../global/utils";
+
+// UI Components
+// ---------------------------------------
+@use "../../ui/**/*";
+
+
+// // Modules
+@use "../../modules/**/*";
